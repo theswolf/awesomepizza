@@ -1,4 +1,7 @@
 package it.awesome.pizza.model;
 
-public class OrderStatus {
+public enum OrderStatus {
+    PENDING,    // In attesa
+    IN_PROGRESS, // In preparazione
+    READY      // Pronto
 }
